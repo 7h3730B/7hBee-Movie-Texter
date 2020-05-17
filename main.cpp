@@ -1,14 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <windows.h>
 
 using namespace std;
 
 int main()
 {
 
-    INPUT input;
     string word;
     ifstream scriptFile("script.txt");
 
