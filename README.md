@@ -20,7 +20,7 @@ g++ main.cpp
 ```
 5. Profit!!?!
 ---
-# Workd
+# Works
 - [x] Discord
 - [x] Keybase
 - [ ] Whatsapp
