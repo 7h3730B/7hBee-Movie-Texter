@@ -19,3 +19,8 @@ g++ main.cpp
 ./a
 ```
 5. Profit!!?!
+---
+# Workd
+- [x] Discord
+- [x] Keybase
+- [ ] Whatsapp
