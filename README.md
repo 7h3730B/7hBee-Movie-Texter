@@ -21,7 +21,7 @@ g++ main.cpp
 5. Go into the textfield you want to type in
 6. Press the Number 7 on your Numpad
 7. Profit!!?!
-8. To Stop Press the Number 8 on your Numpad
+8. To Stop Press the Number 9 on your Numpad
 ---
 # Works
 - [x] Discord
