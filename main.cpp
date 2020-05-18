@@ -7,17 +7,21 @@ using namespace std;
 int main()
 {
 
-    string word;
+    string line;
     ifstream scriptFile("script.txt");
 
     if (scriptFile.is_open())
     {
-        while (scriptFile >> word)
+        while (true)
         {
-            if (!word.empty())
+            // TODO: Check for a Keypress
+            while (getline(scriptFile, line) && true)
             {
-                // TODO. Check for keyboard press and send Keyboard press
-                cout << word << '\n';
+                if (!line.empty())
+                {
+                    // TODO. Check for keyboard press and send Keyboard press
+                    cout << line << '\n';
+                }
             }
         }
         scriptFile.close();
