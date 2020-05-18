@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
@@ -14,13 +15,53 @@ int main()
     {
         while (true)
         {
-            // TODO: Check for a Keypress
-            while (getline(scriptFile, line) && true)
+            if (GetKeyState(VK_NUMPAD7) && 0x8000)
             {
-                if (!line.empty())
+                while (getline(scriptFile, line))
                 {
-                    // TODO. Check for keyboard press and send Keyboard press
-                    cout << line << '\n';
+                    if (!line.empty())
+                    {
+                        for (char &c : line)
+                        {
+                            if (GetKeyState(VK_NUMPAD9) && 0x8000)
+                                return 0;
+                            INPUT input = {0};
+                            input.type = INPUT_KEYBOARD;
+                            if (c == '!')
+                            {
+                                input.ki.wVk = VkKeyScanA(' ');
+                            }
+                            else if (c == '\'')
+                            {
+                                input.ki.wVk = VkKeyScanA(' ');
+                            }
+                            else if (c == '?')
+                            {
+                                input.ki.wVk = VkKeyScanA(' ');
+                            }
+                            else
+                            {
+                                input.ki.wVk = VkKeyScanA(c);
+                            }
+                            SendInput(1, &input, sizeof(input));
+                            ZeroMemory(&input, sizeof(input));
+                            Sleep(15);
+                            input.ki.dwFlags = KEYEVENTF_KEYUP;
+                            SendInput(1, &input, sizeof(input));
+                            ZeroMemory(&input, sizeof(input));
+                            Sleep(15);
+                        }
+                        INPUT input = {0};
+                        input.type = INPUT_KEYBOARD;
+                        input.ki.wVk = VkKeyScanA(VK_RETURN);
+                        SendInput(1, &input, sizeof(input));
+                        ZeroMemory(&input, sizeof(input));
+                        Sleep(20);
+                        input.ki.dwFlags = KEYEVENTF_KEYUP;
+                        SendInput(1, &input, sizeof(input));
+                        ZeroMemory(&input, sizeof(input));
+                        Sleep(10);
+                    }
                 }
             }
         }
@@ -28,10 +69,8 @@ int main()
     }
     else
     {
-        cout << "Something failed";
+        cout << "Something failed" << endl;
     }
-
-    cout << endl;
 
     return 0;
 }
