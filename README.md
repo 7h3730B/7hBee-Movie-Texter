@@ -1,21 +1,55 @@
-# 7hBee-Movie-Texter
-> Texts the complete Bee Movie Script line by line
+<div align="center">
+    <h1>~ 7hBee-Movie-Texter ~</h1>
+    <strong>
+        a little Programm that texts the complete Bee Movie Script line by line
+    </strong><br/><br/>
+    <img height="28" src="https://img.shields.io/github/license/7h3730B/7hISSBot?style=for-the-badge">
+    <img height="28" src="https://img.shields.io/github/repo-size/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
+    <img height="28" src="https://img.shields.io/github/stars/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
+    <img height="28" src="https://forthebadge.com/images/badges/built-with-love.svg">
+
+</div>
 ---
-# Installation
-1. just clone the Repository
-```shell
-git clone https://github.com/7h3730B/7hBee-Movie-Texter.git
+## Table of Contents
+
+* [Intro](#intro) 
+* [Features](#features) 
+* [Usage](#usage) 
+* [License](#license)
+---
+## Intro
+
+This is a little Program that I made to annoy my friends.
+
+---  
+## Features
+
+It works on:
+- Discord
+- Keybase  
+<br/>
+It just textes the complete Bee Movie Script line by line.  
+<img src="https://raw.github.com/7h3730B/7hBee-Movie-Texter/master/preview.gif">  
+ ---
+## Usage
+Make sure you have a c++ compiler installed in my case [g++](https://gcc.gnu.org/).  
+``` BASH
+# Clone this repository
+$ git clone https://github.com/7h3730B/7hBee-Movie-Texter.git
+# Go into the repository
+$ cd 7hBee-Movie-Texter
+# Compile it
+$ g++ main.cpp
 ```
-2. cd into it
-```shell
-cd 7hBee-Movie-Texter/
+Now if you have installed it and compiled run the Program with:  
+``` BASH
+$ ./a
 ```
-3. Compile it with g++ or any other c++ compiler
-```shell
-g++ main.cpp
-```
-4. Run it
-```shell
-./a
-```
-5. Profit!!?!
+Then go into the Textfield where you want to use it.  
+Then press "7" on the Numpad  
+and if you want to stop it press "9" on the Numpad.  
+---
+# License
+> You can check out the full license [here](https://github.com/7h3730B/7hISSBot/blob/master/LICENSE)  
+ 
+This project is licensed under the terms of the **MIT** license.
