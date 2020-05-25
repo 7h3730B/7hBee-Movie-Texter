@@ -3,7 +3,6 @@
     <strong>
         a little Programm that texts the complete Bee Movie Script line by line
     </strong><br/><br/>
-    <img height="28" src="https://img.shields.io/github/license/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
     <img height="28" src="https://img.shields.io/github/repo-size/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
     <img height="28" src="https://img.shields.io/github/stars/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
     <img height="28" src="https://forthebadge.com/images/badges/built-with-love.svg">
@@ -48,10 +47,4 @@ $ ./a
 ```
 Then go into the Textfield where you want to use it.  
 Then press "7" on the Numpad  
-and if you want to stop it press "9" on the Numpad.  
-
----
-# License
-> You can check out the full license [here](https://github.com/7h3730B/7hBee-Movie-Texter/blob/master/LICENSE)  
- 
-This project is licensed under the terms of the **MIT** license.
+and if you want to stop it just press "9" on the Numpad.
