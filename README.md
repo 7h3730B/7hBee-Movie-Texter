@@ -14,7 +14,6 @@
 * [Intro](#intro) 
 * [Features](#features) 
 * [Usage](#usage) 
-* [License](#license)
 ---
 ## Intro
 
