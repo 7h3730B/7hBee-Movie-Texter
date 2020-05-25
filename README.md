@@ -8,8 +8,8 @@
     <img height="28" src="https://img.shields.io/github/stars/7h3730B/7hBee-Movie-Texter?style=for-the-badge">
     <img height="28" src="https://forthebadge.com/images/badges/built-with-love.svg">
 
-</div>
----
+</div>  
+
 ## Table of Contents
 
 * [Intro](#intro) 
@@ -29,8 +29,9 @@ It works on:
 - Keybase  
 <br/>
 It just textes the complete Bee Movie Script line by line.  
-<img src="https://raw.github.com/7h3730B/7hBee-Movie-Texter/master/preview.gif">  
- ---
+<img src="https://github.com/7h3730B/7hBee-Movie-Texter/blob/master/preview.gif">
+
+---
 ## Usage
 Make sure you have a c++ compiler installed in my case [g++](https://gcc.gnu.org/).  
 ``` BASH
@@ -45,10 +46,10 @@ Now if you have installed it and compiled run the Program with:
 ``` BASH
 $ ./a
 ```
-<<<<<<< HEAD
 Then go into the Textfield where you want to use it.  
 Then press "7" on the Numpad  
 and if you want to stop it press "9" on the Numpad.  
+
 ---
 # License
 > You can check out the full license [here](https://github.com/7h3730B/7hISSBot/blob/master/LICENSE)  
