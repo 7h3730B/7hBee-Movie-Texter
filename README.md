@@ -45,6 +45,7 @@ Now if you have installed it and compiled run the Program with:
 ``` BASH
 $ ./a
 ```
+<<<<<<< HEAD
 Then go into the Textfield where you want to use it.  
 Then press "7" on the Numpad  
 and if you want to stop it press "9" on the Numpad.  
